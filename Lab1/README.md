@@ -1,5 +1,5 @@
 # Componentes
-1. Componente Button
+## 1. Componente Button
 El componente Button es un botón genérico que se adapta a diferentes tipos de datos mediante genéricos.
 ### Propiedades:
 label (string): Texto que se debe muestra en el botón.
@@ -13,7 +13,7 @@ Genéricos: Utilizamos T para hacer que el componente sea flexible con cualquier
 Manejo de errores: Se implementa un tipo de error personalizado para manejar cuando onClick no sea una función válida.
 
 -----------------
-2. Componente List
+## 2. Componente List
 El componente List es una lista que puede mostrar cualquier tipo de colección y se puede aplicar un filtro para mostrar solo ciertos elementos.
 ### Propiedades:
 items (readonly T[]): Arreglo readonly de elementos de tipo T. readonly nos ayuda a que la lista no se pueda modificar.
@@ -26,7 +26,7 @@ readonly: La propiedad items es readonly, lo que significa que no se pueden real
 Manejo de errores: Se verifica que items sea un arreglo y que filter, si se proporciona, sea una función. Si alguno de estos no es válido, se maneja el error y se muestra un mensaje adecuado.
 
 ---------------------
-3. Componente InputField
+## 3. Componente InputField
 El componente InputField es un campo de entrada genérico que puede ser de tipo text o number.
 ### Propiedades:
 type ('text' | 'number'): Define el tipo, que puede ser text o number.
