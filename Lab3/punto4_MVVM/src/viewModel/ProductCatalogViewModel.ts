@@ -1,4 +1,4 @@
-import { Product } from "../model/Product";
+import { Product } from "../model/product";
 export class ProductCatalogViewModel {
   private products: Product[] = [];
   // Método para agregar un producto al catálogo
