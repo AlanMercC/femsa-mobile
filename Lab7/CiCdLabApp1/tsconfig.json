@@ -1,0 +1,13 @@
+  {
+    "compilerOptions": {
+      "target": "es6",
+      "module": "commonjs",
+      "strict": true,
+      "jsx": "react",
+      "skipLibCheck": true,
+      "types": ["jest"],
+      "esModuleInterop": true
+    },
+    "exclude": ["node_modules"]
+  }
+
