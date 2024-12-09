@@ -1,6 +1,6 @@
 import { NativeModules, Platform } from 'react-native';
 
-const {      } = NativeModules;
+const { BatteryLevelManager } = NativeModules;
 
 export interface BatteryLevelManager {
   getBatteryLevel(callback: (level: number) => void): void;
