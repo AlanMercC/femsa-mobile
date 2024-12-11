@@ -114,3 +114,7 @@ npx react-native run-ios
 ```
 npx react-native run-android
 ```
+
+## Evidencia
+
+![./RM-img.gif](RM-img.gif)
